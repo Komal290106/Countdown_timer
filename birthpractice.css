@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  padding: 1rem;
+  background-image: url("https://wallpapershome.com/images/pages/pic_h/599.jpg");
+  background-size: cover;
+  font-family: "Poppins" , "san-serif" ;
+  font-size: 1rem;
+}
+body{
+  padding-top: 50px;
+  text-align:center;
+  background-size: 100% 800px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+}
+
+/* Header styles */
+header {
+  background-color:transparent;
+  text-align: right;
+ 
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  z-index: 99;
+}
+.header .logo {
+  font-size: 1.7em;
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+}
+
+.nav a{
+  position: relative;
+  font-size: 1.4em;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+
+}
+
+.nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #f3efef;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .5s;
+}
+
+.nav a:hover::after{
+  transform: scaleX(1);
+}
+
+
+/* Main */
+main {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  padding: 20px;
+  background-color: transparent; 
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+} 
+h1{
+  color:#1e0b58;
+  font-size: 55px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 22px;
+}
+
+table{
+  margin:auto;
+  padding: 15px;
+}
+input{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+  padding: 6px;
+  color: #000;
+}
+button {
+  color: #1e0b58;
+  text-decoration:none ;
+  border: 2px solid #1e0b58;
+  font-weight: 800;
+  font-size: 17px;
+  padding: 4px 45px;
+  border-radius: 40px; 
+  text-align: center;
+  
+}
+button a:hover {
+  background: #66c6ef;
+  padding: 50px;
+}
+.countdown{
+  padding: 37x;
+  display: flex;
+  justify-content: center;
+  color:#15034b;
+}
+
+.heading{
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight:bold;
+  color: #090237;
+  padding: 30px;
+}
+
+.time{
+  background-color: transparent;
+  font-size: 100px;
+  width:150px;
+  margin:0px 15px;
+  color: #04003c;
+  padding: 2px 11px;
+
+}
+
+/* Footer*/
+footer {
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+  clear: both; 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  margin: 0; 
+  text-align: left;
+  color: #fff;
+}
+.notification-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  padding: 18px;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  width: 300px;
+}
+
+.remind-me-btn {
+  background-color: transparent;
+  cursor: pointer;
+  color: #ddd;
+  text-decoration:none ;
+  border: 0.5px solid #ddd;
+  font-weight: 800;
+  padding:10px 20px;
+  border-radius: 40px; 
+  transition: .5s;
+  text-align: center;
+}
+
+.remind-me-btn:hover {
+  background-color: #085779;
+}
+.social-media-icons {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-media-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.social-media-icons a:hover {
+  color: #085779;
+}
+
+.social-media-icons i {
+  font-size: 28px;
+}
+
+  

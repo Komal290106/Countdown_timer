@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Wedding Countdown</title>
+  <link rel="stylesheet" href="wedding2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="wedding.js"></script>
+</head>
+<body>
+    <header class="header">
+    <a href="C:\Users\dhill\OneDrive\Documents\FEE PROJECT\homepagefinal.html" class="logo"><ion-icon name="gift-outline"></ion-icon>Event</a>
+    <nav class="nav">
+      <a href="C:\Users\dhill\OneDrive\Documents\FEE PROJECT\homepagefinal.html">Home</a>
+      <a href="C:\Users\dhill\OneDrive\Documents\FEE PROJECT\birthday.html">Birthday</a>
+      <a href="C:\Users\dhill\OneDrive\Documents\FEE PROJECT\wedding.html">Wedding</a>
+      <a href="C:\Users\dhill\OneDrive\Documents\FEE PROJECT\anniversarycode.html">Anniversary</a>
+      <a href="C:\Users\dhill\OneDrive\Documents\FEE PROJECT\loginsignin.html">Sign Up</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Wedding Countdown</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Enter Date</th>
+                <th>Enter Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="date" id="date" ></td>
+                <td><input type="time" id="time" ></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button id="calculate">Calculate</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+
+    <div class="countdown">
+        <div>
+            <p class="heading">DAYS</p>
+            <div class="time" id="countdown-days">0</div>
+        </div>
+        <div>
+            <p class="heading">HOURS</p>
+            <div class="time" id="countdown-hours">0</div>
+        </div>
+        <div>
+            <p class="heading">MINUTES</p>
+            <div class="time" id="countdown-minutes">0</div>
+        </div>
+        <div>
+            <p class="heading">SECONDS</p>
+            <div class="time" id="countdown-seconds">0</div>
+        </div>
+    </div>
+      </main>
+  <footer>
+    <div class="social-media-icons">
+        <a href="#" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+      <p>&copy; 2024 Events All rights reserved.</p>
+      <div class="notification-box">
+        <p>Don't forget to check your email for updates!</p>
+        <button class="remind-me-btn">Remind Me</button>
+      </div>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
