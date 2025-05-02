@@ -4,7 +4,7 @@
 }
 
 function calculate () {
-    const date = documents.querySelector("#date").value;
+    const date = document.querySelector("#date").value;
     const time = document.querySelector("#time").value;
 
     const stop = document.querySelector('#stop');
